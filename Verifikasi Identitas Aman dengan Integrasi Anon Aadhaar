@@ -1,0 +1,19 @@
+import hashlib
+import requests
+
+def verify_identity(aadhaar_id, user_data):
+    verification_endpoint = "https://anon-aadhaar-verify.com/api/verify"
+    payload = {
+        'aadhaar_id': aadhaar_id,
+        'user_data': hashlib.sha256(user_data.encode()).hexdigest()
+    }
+
+    response = requests.post(verification_endpoint, json=payload)
+    return response.json()
+
+# Contoh penggunaan
+aadhaar_id = "1234-5678-9101"
+user_data = "User Name"
+
+verification_status = verify_identity(aadhaar_id, user_data)
+print(f"Status Verifikasi: {verification_status['status']}")
