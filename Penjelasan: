@@ -1,0 +1,17 @@
+Penjelasan:
+
+1. Smart Contract (Solidity): Mengelola stablecoin BRIC dengan fitur dasar seperti minting, burning, transfer, dan izin.
+
+
+2. Python Web3: Menghubungkan kontrak pintar ke Python untuk melakukan pembayaran lintas negara menggunakan stablecoin BRIC.
+
+3. Uniswap API: Digunakan untuk menukar BRIC dengan kripto lainnya di platform.
+
+
+4. Verifikasi Identitas: Verifikasi identitas pengguna menggunakan sistem Anon Aadhaar untuk memastikan keamanan data pribadi.
+
+
+
+Ini adalah implementasi dasar dari fitur-fitur yang ada di Brics Pay. Anda dapat memperluasnya dengan keamanan tambahan dan lebih banyak integrasi sesuai dengan kebutuhan Anda.
+
+silahkan perbarui dan tinggal melengkapai saja
